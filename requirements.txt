@@ -2,7 +2,7 @@ phonenumberslite==8.10.18
 six==1.11.0
 pytz==2014.2
 nltk==3.4.5
-numpy==1.16
+numpy==1.16.3
 elasticsearch==5.5.0
 requests==2.20.0
 requests-aws4auth==0.9
@@ -24,3 +24,5 @@ flake8==3.4.1
 pyaml==19.4.1
 coverage==4.5.3
 nose-exclude==0.5.0
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
