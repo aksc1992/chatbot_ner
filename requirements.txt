@@ -1,12 +1,12 @@
 phonenumberslite==8.10.18
 six==1.11.0
 pytz==2014.2
-nltk==3.4.5
-numpy==1.16
+nltk==3.6.4
+numpy==1.16.3
 elasticsearch==5.5.0
 requests==2.20.0
 requests-aws4auth==0.9
-Django==1.11.29
+Django==2.2.24
 django-dotenv==1.4.2
 weighted-levenshtein==0.1
 regex==2018.7.11
@@ -24,3 +24,5 @@ flake8==3.4.1
 pyaml==19.4.1
 coverage==4.5.3
 nose-exclude==0.5.0
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
