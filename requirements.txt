@@ -1,12 +1,12 @@
 phonenumberslite==8.10.18
 six==1.11.0
 pytz==2014.2
-nltk==3.4.5
+nltk==3.6.6
 numpy==1.16
 elasticsearch==5.5.0
 requests==2.20.0
 requests-aws4auth==0.9
-Django==1.11.29
+Django==2.2.26
 django-dotenv==1.4.2
 weighted-levenshtein==0.1
 regex==2018.7.11
